@@ -24,8 +24,7 @@ $ cd Processo-Seletivo-Mobix-Desafio-de-Logica-DouglasSilva
 ```bash
 # Starting from the project root folder
 
-# To Start, run the application using
-$ node ExpressoesMatematicas.js
+# To start, run the application using the command in the terminal: node ExpressoesMatematicas.js
 
 # Well done, project is started!
 ```
