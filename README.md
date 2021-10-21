@@ -12,11 +12,11 @@ Requirements
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/DouglasANS/Processo-Seletivo-Mobix-Desafio-de-Logica-DouglasSilva.git 
+git clone https://github.com/DouglasANS/Processo-Seletivo-Mobix-Desafio-de-Logica-DouglasSilva.git 
 ```
 &&
 ```bash
-$ cd Processo-Seletivo-Mobix-Desafio-de-Logica-DouglasSilva
+cd Processo-Seletivo-Mobix-Desafio-de-Logica-DouglasSilva
 ```
 
 **Follow the steps below**
