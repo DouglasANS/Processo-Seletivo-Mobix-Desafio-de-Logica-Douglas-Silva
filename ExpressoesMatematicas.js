@@ -104,7 +104,6 @@ rl.question('Digite um valor: ', (val) => {
                               }
                               
                               var par = parenteses.filter(parenteseF);
-                              //console.log('filter: ',par)
 
                               if(par.length > 1){
                                 parenteses = []
@@ -136,7 +135,7 @@ rl.question('Digite um valor: ', (val) => {
         operation(ALL)
     }
     
-    //Faz operação de valores => + - * /  
+    //Faz operação de valores => + - * / ^
     function operation(all){
         if(all.includes('^')){
             for (var i = 0; i < all.length; i++){
@@ -149,8 +148,6 @@ rl.question('Digite um valor: ', (val) => {
                         result *= base
                     }
 
-                    
-                    // (parseInt(all[i-1]) * parseInt(all[i-1])) // parseInt(all[i+1])
                     all.splice(i, 1)
                     all.splice(i, 1)
                     all.splice(i-1, 1)
@@ -211,4 +208,3 @@ rl.question('Digite um valor: ', (val) => {
 
   rl.close();
 });
-
