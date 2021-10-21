@@ -204,7 +204,7 @@ rl.question('Digite um valor: ', (val) => {
         }
         }
     }
-    console.log('resultado: ',ALL.toString())
+    console.log('Resultado: ',ALL.toString())
 
   rl.close();
 });
